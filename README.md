@@ -49,5 +49,3 @@ nextflow run flured.nf --fluType A/H1 --outdir ./outputDir --fasta ./sequences.f
 To report a bug, error, or feature request, please [open an issue](https://github.com/ValldHebron-Bioinformatics/FluReD/issues).
 
 For questions, email us at alejandra.gonzalez@vallhebron.cat; we're happy to help!
-
-## References
