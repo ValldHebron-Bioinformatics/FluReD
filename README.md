@@ -15,13 +15,38 @@ Genotype is assigned independently for each segment through a method based on di
 
 References datasets by season are available [here](references). A [guide](references/README.md) for own reference dataset creation is also provided.
 
-## Requirements
 
-For correct execution, the following programs/packages need to be installed:
-- Nextflow (developed in version 23.10.1). [Installation guide](https://www.nextflow.io/docs/latest/install.html)
-- Python modules **pandas**, **sys**, **re**, **os**. Can be installed with `pip install pandas sys re os` 
-- mafft. [Installation guide](https://mafft.cbrc.jp/alignment/software/source.html)
-- distmat [Installation guide](http://emboss.open-bio.org/html/adm/index.html)
+## Installation
+
+### Prerequisites
+
+Ensure that the following programs/packages are installed on your system before running the pipeline:
+
+- [Nextflow](https://www.nextflow.io/docs/latest/getstarted.html) (developed with version 23.10.1)
+- Python 3.x and the following modules:
+    - pandas
+    - sys
+    - re
+    - os
+- [MAFFT](https://mafft.cbrc.jp/alignment/software/)
+- [distmat](http://emboss.sourceforge.net/apps/cvs/emboss/apps/distmat.html)
+
+### Installation Steps
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/ValldHebron-Bioinformatics/FluReD.git
+    cd FluReD
+    ```
+
+2. Install **nextflow** (tool developed in version 23.10.1) Follow the [nextflow installation guide](https://www.nextflow.io/docs/latest/install.html)
+
+3. Install the required Python packages. Can be installed with `pip install pandas sys re os`
+
+4. Install **MAFFT** for sequence alignment. Follow the [MAFFT installation guide](https://mafft.cbrc.jp/alignment/software/).
+
+5. Install **distmat** (for generating distance matrices). You can refer to the [distmat installation guide](http://emboss.sourceforge.net/apps/cvs/emboss/apps/distmat.html).
 
 ## Execution details
 
@@ -43,6 +68,9 @@ A folder named 'results' will be created in the directory defined by the user. R
 ```
 nextflow run flured.nf --fluType A/H1 --outdir ./outputDir --fasta ./sequences.fasta --chunk 100 --references ./references/2023-2024/A-H1N1 --segments all
 ```
+## Credits
+
+If you use this tool in your research, please consider citing the repository.
 
 ## Get in touch
 
