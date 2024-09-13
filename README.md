@@ -28,12 +28,12 @@ For correct execution, the following programs/packages need to be installed:
 ### Input
 
 Parameters:
-- **fluType** = Type of influenza to be analysed. Available options are `[ A/H1 | A/H3 | B/Vic | B/Yam | Zoonotic ]`. If you want to analyse an influenza A dataset (taking into account both H1 and H3), you can define A/H1 or A/H3 as fluType parameter.
-- **outdir** = Output directory to store the results.
-- **fasta** = FASTA format file with the segments to be analysed. Currently, the tool is adapted for the GISAID format, which is necessary for its operation. The headers must have the format `>Isolation_name|Collection_date|Clade|Segment`. The options ‘Replace spaces with underscores in FASTA header’ and ‘Remove spaces before and after values in FASTA header’ must be selected.
-- **Npercent** = Threshold for sequence filtering based on the percentage Ns. Default is 0.05.
-- **chunk** = Chunk size for parallelisation. Default is 100.
-- **segments** = Segments for analysis. Default is ‘all’, but a single segment can be selected.
+- `--fluType` = Type of influenza to be analysed. Available options are `[ A/H1 | A/H3 | B/Vic | B/Yam | Zoonotic ]`. If you want to analyse an influenza A dataset (taking into account both H1 and H3), you can define A/H1 or A/H3 as fluType parameter.
+- `--outdir` = Output directory to store the results.
+- `--fasta` = FASTA format file with the segments to be analysed. Currently, the tool is adapted for the GISAID format, which is necessary for its operation. The headers must have the format `>Isolation_name|Collection_date|Clade|Segment`. The options ‘Replace spaces with underscores in FASTA header’ and ‘Remove spaces before and after values in FASTA header’ must be selected.
+- `--Npercent` = Threshold for sequence filtering based on the percentage Ns. Default is 0.05.
+- `--chunk` = Chunk size for parallelisation. Default is 100.
+- `--segments` = Segments for analysis. Default is ‘all’, but a single segment can be selected.
 
 ### Output
 
