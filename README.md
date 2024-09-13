@@ -13,7 +13,7 @@ Genotype is assigned independently for each segment through a method based on di
 
 ## Available references
 
-References datasets for season 2023-2024 are available [here](folder)
+References datasets by season are available [here](references)
 
 ## Requirements
 
