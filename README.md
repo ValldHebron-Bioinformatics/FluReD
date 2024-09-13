@@ -49,7 +49,7 @@ nextflow run flured.nf --fluType A/H1 --outdir ./test-genotyping2 --fasta ./h1n1
 
 ## Get in touch
 
-To report a bug, error, or feature request, please [open an issue](issues).
+To report a bug, error, or feature request, please [open an issue]([issues](https://github.com/ValldHebron-Bioinformatics/FluReD/issues)).
 
 For questions, email us at alejandra.gonzalez@vallhebron.cat; we're happy to help!
 
