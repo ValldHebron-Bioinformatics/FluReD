@@ -7,7 +7,7 @@ This repository analyses influenza genomes for reassortment detection (currently
 Genotype is assigned independently for each segment through a method based on distances.
 
 > [!IMPORTANT]
-> Clade assignment is based on available sequences. For some clades, not all segments are available. For all segments of a reference strain, clade assigment is based on HA clase defined. 
+> Clade assignment is based on available sequences. For some clades, not all segments are available. For all segments of a reference strain, clade assigment is based on HA clade defined. 
 
 
 
